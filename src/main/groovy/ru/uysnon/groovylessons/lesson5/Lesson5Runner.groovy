@@ -1,4 +1,4 @@
-package ru.uysnon.groovylessons
+package ru.uysnon.groovylessons.lesson5
 
 import groovy.transform.CompileStatic
 
