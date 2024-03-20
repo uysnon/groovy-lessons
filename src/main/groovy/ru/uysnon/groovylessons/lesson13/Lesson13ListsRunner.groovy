@@ -31,3 +31,22 @@ assert [1, 2, 2, 3].intersect([1, 2, 2, 4]) == [1, 2, 2]
 assert ![1, 2, 2, 3].disjoint([1, 5, 10])
 assert [1, 2, 2, 3].disjoint([5, 10])
 
+
+func1(2, 8)
+func1(*[2, 8]) // то же самое
+
+def func1 (def a, def b) {
+    println "$a, $b"
+}
+
+def a
+def b
+(a, b) = func2()
+assert a == 1
+assert  b == 23
+
+def func2() {
+    return [1, 23, 4]
+}
+
+
